@@ -98,6 +98,9 @@
   <ItemGroup>
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock_main.cc" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="TestableBookingScheduler.cpp" />
+    <ClCompile Include="TestableMailSender.cpp" />
+    <ClCompile Include="TestableSmsSender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Project17\Project17.vcxproj">
